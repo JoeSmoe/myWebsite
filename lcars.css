@@ -1,0 +1,38 @@
+.rectangle_blue {
+  height: 45px;
+  width: 70%;
+  background: #3a88fe;
+}
+.circle_left_blue {
+  width: 25px;
+  height: 45px;
+  border-bottom-left-radius: 90px;
+  border-top-left-radius: 90px;
+  background: #3a88fe;
+}
+
+.circle_right_blue {
+  width: 25px;
+  height: 45px;
+  border-bottom-right-radius: 90px;
+  border-top-right-radius: 90px;
+  background: #3a88fe;
+}
+
+.lcars-container {
+display: flex;
+width: calc(100% - 1rem);
+height: calc(100% - 1rem);
+overflow: hidden;
+margin: 0.5rem;
+}
+
+.lcars-elbow-down-right-tan {
+position: relative;
+width: 9.5rem;
+min-width: 9.5rem;
+height: 4.5rem;
+min-height: 4.5rem;
+background: #fc6;
+margin: 0;
+}
