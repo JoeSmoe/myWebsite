@@ -4,6 +4,9 @@ p, h1, h2, h3 {
   margin-bottom: 1px;
   color: yellow;
 }
+#center {
+  text-align: center;
+}
 div {
   display: block;
 }
