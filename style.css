@@ -7,6 +7,12 @@ p, h1, h2, h3 {
 #center {
   text-align: center;
 }
+tr {
+  text-align: top;
+}
+#weatherWidth {
+  width: 600px;
+}
 div {
   display: block;
 }
