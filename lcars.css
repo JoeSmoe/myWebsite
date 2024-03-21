@@ -1,6 +1,6 @@
 .rectangle_blue {
   height: 45px;
-  width: 70%;
+  width: calc(100% - 1px);
   background: #3a88fe;
 }
 .circle_left_blue {
@@ -9,6 +9,7 @@
   border-bottom-left-radius: 90px;
   border-top-left-radius: 90px;
   background: #3a88fe;
+  margin-right: 3px;
 }
 
 .circle_right_blue {
@@ -17,14 +18,38 @@
   border-bottom-right-radius: 90px;
   border-top-right-radius: 90px;
   background: #3a88fe;
+  margin-left: 3px;
+}
+
+.rectangle_tan {
+  height: 45px;
+  width: calc(100% - 1px);
+  background: #ffcc66;
+}
+.circle_left_tan {
+  width: 25px;
+  height: 45px;
+  border-bottom-left-radius: 90px;
+  border-top-left-radius: 90px;
+  background: #ffcc66;
+  margin-right: 3px;
+}
+
+.circle_right_tan {
+  width: 25px;
+  height: 45px;
+  border-bottom-right-radius: 90px;
+  border-top-right-radius: 90px;
+  background: #ffcc66;
+  margin-left: 3px;
 }
 
 .lcars-container {
 display: flex;
-width: calc(100% - 1rem);
-height: calc(100% - 1rem);
+width: calc(100% - 1px);
+height: calc(100% - 1px);
 overflow: hidden;
-margin: 0.5rem;
+margin: 1px;
 }
 
 .lcars-elbow-down-right-tan {
