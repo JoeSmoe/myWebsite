@@ -54,10 +54,10 @@ margin: 1px;
 
 .lcars-elbow-down-right-tan {
 position: relative;
-width: 9.5rem;
-min-width: 9.5rem;
+width: 9px;
+min-width: 9px;
 height: 4.5rem;
-min-height: 4.5rem;
+min-height: 5px;
 background: #fc6;
 margin: 0;
 }

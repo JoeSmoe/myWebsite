@@ -8,9 +8,7 @@ div {
   display: block;
 }
 .weather {
-  width: 600px;
-  height: 100px;
-  display: block;
-  background: #aaaaaa;
-  align: right;
+  width: calc(100% - 1px);
+  height: 225px;
+  border: 0;
 }
