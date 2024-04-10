@@ -2,7 +2,9 @@
   height: 45px;
   width: calc(100% - 1px);
   background: #3a88fe;
+  margin-bottom: 3px;
 }
+
 .circle_left_blue {
   width: 25px;
   height: 45px;
@@ -25,7 +27,9 @@
   height: 45px;
   width: calc(100% - 1px);
   background: #ffcc66;
+  margin-bottom: 3px;
 }
+
 .circle_left_tan {
   width: 25px;
   height: 45px;

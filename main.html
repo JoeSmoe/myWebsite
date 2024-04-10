@@ -8,29 +8,30 @@
 </head>
 
 <body>
-  <div class="lcars-container">
+  <section class="lcars-container">
     <div class="circle_left_tan"></div>
     <div class="rectangle_tan"></div>
     <div class="circle_right_tan"></div>
-  </div>
-  <div>
-    <table class="weather">
+  </section>
+  <section>
+    <table class="weather" border=20>
       <tr>
-        <td>
+        <td id="buttonsLeft">
           <div class="rectangle_tan"><a href="link_to_turn_on_lights">Lights On</a></div>
-        </td>
-        <td>
           <div class="rectangle_tan"><a href="link_to_turn_off_lights">Lights Off</a></div>
+          <div class="rectangle_blue"><a href="javascript:void(0);" value="Joe" onclick="writeCalendar('Joe');">Joe</a></div>
+          <div class="rectangle_blue"><a href="javascript:void(0);" value="Janet" onclick="writeCalendar('Janet');">Janet</button></div>
         </td>
+        <td id="info">&nbsp;</td>
         <td id="weatherWidth"><a class="weatherwidget-io" href="https://forecast7.com/en/42d48n88d10/antioch/?unit=us" data-label_1="ANTIOCH" data-label_2="WEATHER" data-icons="Climacons Animated" data-theme="ruby">ANTIOCH WEATHER</a></td>
       </tr>
     </table>
-  </div>
-  <div class="lcars-container">
+  </section>
+  <section class="lcars-container">
     <div class="circle_left_tan"></div>
     <div class="rectangle_tan"></div>
     <div class="circle_right_tan"></div>
-  </div>
+  </section>
   <script src="script.js"></script>
 </body>
 
