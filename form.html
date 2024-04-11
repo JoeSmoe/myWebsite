@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Enter a Do Item</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="lcars.css" rel="stylesheet" type="text/css">
+
+  <script src="https://www.gstatic.com/firebasejs/10.10.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.10.0/firebase-firestore-compat.js"></script>
+</head>
+
+<body>
+
+  <form>
+    <p>
+      <label for="itemName">Item Name</label>
+      <input type="text" id="itemName" name="itemName" placeholder="Enter Item Name">
+    </p>
+  </form>
+
+  
+  <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyCFgKcsEP0lnZdpZoD0tVCMoCw9NPC4e7Q",
+    authDomain: "dolist-dcede.firebaseapp.com",
+    projectId: "dolist-dcede",
+    storageBucket: "dolist-dcede.appspot.com",
+    messagingSenderId: "535764749530",
+    appId: "1:535764749530:web:0071534fd2dac708f0a9e3"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>
+  <script src="script.js"></script>
+</body>
+
+</html>
